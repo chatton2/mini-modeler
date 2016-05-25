@@ -1,0 +1,40 @@
+﻿Build started 5/18/2014 2:37:10 PM.
+Project "C:\Users\Chynna\Documents\Visual Studio 2013\Projects\MiniModeler\Scenegraph\Scenegraph.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Chynna\Downloads\fltk-1.3.2-source\fltk-1.3.2" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt UI.cpp flatView.cpp main.cpp
+  UI.cpp
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\algebra3.h(24): warning C4005: 'V_ERROR' : macro redefinition
+          c:\program files (x86)\windows kits\8.1\include\um\oleauto.h(1403) : see previous definition of 'V_ERROR'
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\ui.cpp(81): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\ui.cpp(82): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\ui.cpp(92): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  main.cpp
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\algebra3.h(24): warning C4005: 'V_ERROR' : macro redefinition
+          c:\program files (x86)\windows kits\8.1\include\um\oleauto.h(1403) : see previous definition of 'V_ERROR'
+  flatView.cpp
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\algebra3.h(24): warning C4005: 'V_ERROR' : macro redefinition
+          c:\program files (x86)\windows kits\8.1\include\um\oleauto.h(1403) : see previous definition of 'V_ERROR'
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\flatview.cpp(31): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\flatview.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\flatview.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\flatview.cpp(52): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\flatview.cpp(71): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\chynna\documents\visual studio 2013\projects\minimodeler\scenegraph\flatview.cpp(75): warning C4305: 'argument' : truncation from 'double' to 'float'
+  Generating Code...
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chynna\Documents\Visual Studio 2013\Projects\MiniModeler\Debug\Scenegraph.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Chynna\Downloads\fltk-1.3.2-source\fltk-1.3.2/lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib fltkd.lib fltkgld.lib wsock32.lib comctl32.lib opengl32.lib fltkjpegd.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Chynna\Documents\Visual Studio 2013\Projects\MiniModeler\Debug\Scenegraph.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chynna\Documents\Visual Studio 2013\Projects\MiniModeler\Debug\Scenegraph.lib" /MACHINE:X86 Debug\algebra3.obj
+  Debug\Camera.obj
+  Debug\Controller.obj
+  Debug\cubeWin.obj
+  Debug\flatView.obj
+  Debug\heightField.obj
+  Debug\main.obj
+  Debug\UI.obj
+  Scenegraph.vcxproj -> C:\Users\Chynna\Documents\Visual Studio 2013\Projects\MiniModeler\Debug\Scenegraph.exe
+Done Building Project "C:\Users\Chynna\Documents\Visual Studio 2013\Projects\MiniModeler\Scenegraph\Scenegraph.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.88

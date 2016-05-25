@@ -1,0 +1,37 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0302 
+header_name {.h} 
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window {} {open selected
+      xywh {152 217 536 414} type Double visible
+    } {
+      Fl_Button {} {
+        label {Draw Cat}
+        xywh {15 225 60 25}
+      }
+      Fl_Tree {} {
+        xywh {15 30 140 180}
+      }
+      Fl_Button {} {
+        label Quad
+        xywh {15 255 60 25}
+      }
+      Fl_Button {} {
+        label Triangle
+        xywh {15 290 65 25}
+      }
+      Fl_Button {} {
+        label Polygon
+        xywh {15 325 65 25}
+      }
+      Fl_Button {} {
+        label Polyline
+        xywh {15 360 65 25}
+      }
+    }
+  }
+} 
